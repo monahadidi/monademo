@@ -1,0 +1,881 @@
+<resources>
+<string formatted="false" name="android_api_key" translatable="false">AIzaSyDROB7EifdWRt-HhFcdvmoxgB-GHtPEnMI</string>
+<string name="app_name" translatable="false">RingMD</string>
+<!--
+ **********************************************************************************
+           *****************
+           *****************
+           *****************
+                                Account kit start
+           ******************************************************************************** 
+-->
+<string name="fb_app_id" translatable="false">475074902687159</string>
+<string name="ak_login_protocol_scheme">ak475074902687159</string>
+<string name="fb_client_token">390849449ea36d63f1aab97a0329bfcd</string>
+<string name="clientTermsOfService">http://m.ring.md/terms</string>
+<string name="clientPrivacyPolicy">http://m.ring.md/privacy</string>
+<!--
+ **********************************************************************************
+                                Account kit end
+    *************************************************************************************** 
+-->
+<!--
+ **********************************************************************************
+           *****************
+           *****************
+           *****************
+                                Sign in and sign up start
+           ******************************************************************************** 
+-->
+<string name="account_name_hint">Enter mobile number or email</string>
+<string name="sign_up_title">Account details</string>
+<string name="doctor_details">Doctor details</string>
+<string name="sign_in_issue_title">Sign in trouble</string>
+<string name="prompt_sign_in">Sign in</string>
+<string name="get_started_with">Sign in / Register</string>
+<string name="i_am_hint">I am a</string>
+<string name="hint_select_role">Please select a role</string>
+<string name="hint_input_email">Enter your email</string>
+<string name="hint_input_name">Full name</string>
+<string name="hint_biography">Enter you professional biography</string>
+<string name="avatar_hint">add\nprofile picture</string>
+<string name="mobile_number">Mobile number</string>
+<string name="magic_link">Magic Link</string>
+<string name="magic_link_intro">
+Instead of typing out password, Magic Link will email you a link to sign in instantly
+</string>
+<string name="classic_sign_in_intro">
+You can create a new account here or enter your existing RingMD account details.
+</string>
+<string name="hint_cannot_access">Can\'t access your existing account?</string>
+<string name="reset_pw">Send reset password email</string>
+<string name="resend_confirmation">Resend confirmation email</string>
+<string name="title_upload_documents">Verification documents</string>
+<string name="upload_documents_hint">
+Please upload your Identify card and medical license for verification. This will help us to approve your account.
+</string>
+<string name="skip_hint">You may skip now to do it later</string>
+<!--
+ **********************************************************************************
+                                Sign in and sign up end
+    *************************************************************************************** 
+-->
+<!--
+ **********************************************************************************
+       *****************
+       *****************
+       *****************
+                                Supported languages start
+       ************************************************************************************ 
+-->
+<string name="language_english" translatable="false">English</string>
+<string name="language_hindi" translatable="false">हिन्दी</string>
+<string name="language_indonesian" translatable="false">Bahasa Indonesia</string>
+<string name="language_vietnamese" translatable="false">Tiếng Việt</string>
+<string name="language_japanese" translatable="false">日本語</string>
+<string name="language_chinese" translatable="false">中文</string>
+<string name="language_thai" translatable="false">ไทย</string>
+<!--
+ **********************************************************************************
+                                Supported languages end
+    *************************************************************************************** 
+-->
+<!--
+ **********************************************************************************
+    *****************
+    *****************
+    *****************
+                                Medical history strings start
+    *************************************************************************************** 
+-->
+<!--  Answer options -->
+<string name="every_day">Every day</string>
+<string name="some_days">Some days</string>
+<string name="never">Never</string>
+<string name="none">None</string>
+<!--  Tab titles -->
+<string name="general">General</string>
+<string name="tab_medical_history">Past</string>
+<string name="tab_family_medical_history">Family</string>
+<!--  General information  -->
+<string name="year_of_birth">Year of birth</string>
+<string name="select_born_year_hint">Please select your year of birth</string>
+<string name="occupation">Occupation</string>
+<string name="occupation_hint">E.g. student, mechanic</string>
+<string name="ethnicity">Ethnicity</string>
+<string name="state_ethnicity_hint">E.g. Caucasian, Asian</string>
+<string name="gender">Gender</string>
+<string name="male">Male</string>
+<string name="female">Female</string>
+<string name="height">Height</string>
+<string name="height_cm" translatable="false">cm</string>
+<string name="height_inch" translatable="false">in</string>
+<string name="weight">Weight</string>
+<string name="weight_kg" translatable="false">kg</string>
+<string name="weight_pound" translatable="false">lbs</string>
+<string name="prompt_how_often_drink_alcohol">How often do you drink alcohol?</string>
+<string name="drink_alcohol_details">
+Describe types of alcohol and number of drinks per day
+</string>
+<string name="prompt_how_often_smoke">How often do you smoke?</string>
+<string name="smoke_amount_hint">Describe amount and type per day</string>
+<string name="question_how_often_use_recreational_drugs">How often do you use recreational drugs?</string>
+<string name="hint_recreational_drug_names">Please list which drugs and how often you use them</string>
+<!--  Medical history  -->
+<string name="diagnosed_medical_conditions">
+Have you ever been diagnosed with any medical conditions? (Select all that apply)
+</string>
+<string name="have_ever_cancer">Have you ever suffered from cancer?</string>
+<string name="cancer_details_hint">What type of cancer and on which organ?</string>
+<string name="have_ever_substantial_trauma">Have you suffered substantial trauma?</string>
+<string name="common_medical_history_detail_hint">Please describe</string>
+<string name="have_ever_had_surgeries">Have you had any surgeries?</string>
+<string name="medications_and_dosages_hint">
+Please list your medications and dosages. Please include &quot;over the counter&quot; medications and dietary supplements.
+</string>
+<string name="prompt_do_you_have_drug_allergies">Do you have drug allergies?</string>
+<string name="drug_allergies_hint">
+Name the drug(s) you are allergic to and the reaction
+</string>
+<string name="have_other_allergies">
+Do you have food, environmental or other allergies?
+</string>
+<string name="have_life_threatening_allergies">
+Was your allergic reaction life threatening (anaphylaxis)?
+</string>
+<string name="is_receiving_any_medical_treatment">
+Are you being treated for any other medical conditions? Please list other consultants you are under the care of.
+</string>
+<string name="prompt_detail_medical_treatment_hint">Details (type of treatment, drugs that you take)</string>
+<!--  Family medical history -->
+<string name="prompt_question_family_history">
+Has anyone in your immediate family been diagnosed with any of the following medical conditions?
+</string>
+<string name="prompt_who_was_diagnosed">Who was diagnosed?</string>
+<string name="parent">Parent</string>
+<string name="prompt_sibling">Sibling</string>
+<string name="prompt_grand_parent">Grandparent</string>
+<!--  Notify message -->
+<string name="update_medical_profile_successfully">Medical profile is updated successfully</string>
+<string name="discard_changes_confirm">Discard changes?</string>
+<!--  View patient health profile -->
+<string name="profile_alcohol_use">Drinking</string>
+<string name="profile_tobacco_use">Smoking</string>
+<string name="profile_recreational_drug_use">Use recreational drugs</string>
+<string name="profile_history_cancer">Cancer</string>
+<string name="profile_history_trauma">Trauma</string>
+<string name="profile_history_surgeries">Surgeries</string>
+<string name="profile_history_medications">Medications</string>
+<string name="profile_history_drug_allergies">Drug allergies</string>
+<string name="profile_history_other_allergies">Other allergies</string>
+<string name="profile_history_life_threaten_allergies">Life threaten allergies</string>
+<string name="profile_history_other_med_treatments">Other medical treatments</string>
+<!--
+ **********************************************************************************
+                                Medical history strings start
+    *************************************************************************************** 
+-->
+<!--
+ **********************************************************************************
+       *****************
+       *****************
+       *****************
+                                Appointment related strings start
+       ************************************************************************************ 
+-->
+<!--  Since the date -->
+<string name="since_the_date">since %s</string>
+<!--  On the date -->
+<string name="on_the_date">on %s</string>
+<!--
+ The doctor confirm the appointment "for" a specific date
+-->
+<string name="for_appointment_date">for %s</string>
+<string name="start_call">Start call</string>
+<string name="confirmed">Confirmed</string>
+<string name="pending">Pending</string>
+<string name="waiting_payment">Waiting for payment information</string>
+<string name="expired">Expired</string>
+<string name="completed">Completed</string>
+<string name="cancelled">Cancelled</string>
+<string name="missed">Missed</string>
+<string name="duration">Duration</string>
+<string name="no_available_suggested_slots">
+Sorry, the doctor\'s schedule within 2 weeks is full already.
+</string>
+<!--
+ **********************************************************************************
+                                Appointment related strings end
+    *************************************************************************************** 
+-->
+<!--
+ **********************************************************************************
+       *****************
+       *****************
+       *****************
+                                Settings item strings start
+       ************************************************************************************ 
+-->
+<string name="settings_basic_info">Basic Information</string>
+<string name="settings_log_out">Logout</string>
+<string name="settings_doctor_profile">Profile Settings</string>
+<string name="financial_details">Financial details</string>
+<string name="language">Language</string>
+<string name="select_display_language">Select display language</string>
+<string name="change_language_confirm_title">Change language?</string>
+<string name="change_language_confirm_message">The application will restart to apply change</string>
+<string name="available_hour">Available Hours</string>
+<string name="health_profile">Health Profile</string>
+<string name="connected_devices">Connected devices</string>
+<string name="avatar">Avatar</string>
+<string name="edit">edit</string>
+<string name="select_gallery">Existing photo</string>
+<string name="take_photo">Take photo</string>
+<string name="select_file_failed_permission">
+RingMD has been denied access to external storage please enable access to upload files
+</string>
+<string name="camera_failed_permission">
+RingMD has been denied access to camera please enable access to take picture
+</string>
+<!--
+ **********************************************************************************
+                                Settings item strings end
+    *************************************************************************************** 
+-->
+<!--
+ **********************************************************************************
+       *****************
+       *****************
+       *****************
+                                Payment strings start
+       ************************************************************************************ 
+-->
+<string name="payment_details">Payment Details</string>
+<string name="account_holder_hint">Account Holder Name</string>
+<string name="card_number">Card Number</string>
+<string name="card_number_snippet" translatable="false">…-%s</string>
+<string name="card_cvc_hint" translatable="false">CVC</string>
+<string name="card_expire_year_hint">Expiration Year</string>
+<string name="card_expire_month_hint">Expiration Month</string>
+<string name="select_card">Select Card</string>
+<string name="add_new_card_new">Add New Card</string>
+<string name="proceed_to_payment">Proceed to Payment</string>
+<string name="instant_payment_note">
+* You will not be charged until your call is successful
+</string>
+<string name="bank_account_title">Your bank account details</string>
+<string name="bank_account_hint">
+This information is used to allow RingMD Ireland Pte Ltd to transfer any and all earnings on a cumulative, monthly basis to the following account via GIRO Transfer.\n\nYour data is 100% safe, RingMD uses the same security levels as major banks.
+</string>
+<string name="bank_name">Your Bank Name</string>
+<string name="bank_address">Your Bank Address</string>
+<string name="swift_code">SWIFT Code</string>
+<string name="account_number">Account Number</string>
+<string name="bank_info_missing">Please input all fields</string>
+<!--
+ **********************************************************************************
+                                Payment strings end
+    *************************************************************************************** 
+-->
+<!--
+ **********************************************************************************
+       *****************
+       *****************
+       *****************
+                                Doctor profile start
+       ************************************************************************************ 
+-->
+<string name="expertise">Expertise</string>
+<string name="prompt_others">Others</string>
+<string name="add_available_hours">Add available hours</string>
+<string name="timezone_required">Input a timezone…</string>
+<string name="hour_range_invalid_end">The end time must be later than the start time</string>
+<string name="select_country_hint">Select country…</string>
+<string name="select_currency_hint">Select your currency…</string>
+<string name="prompt_video_link">Video Link</string>
+<string name="prompt_youtube_video">Youtube Video</string>
+<string name="add_youtube_link">Add Youtube link</string>
+<string name="error_invalid_youtube_link">Please input valid YouTube link</string>
+<string name="prompt_professional_biography">Professional biography</string>
+<string name="prompt_awards">Awards</string>
+<string name="add_award">Add award</string>
+<string name="edit_award">Edit award</string>
+<string name="prompt_affiliations">Affiliations</string>
+<string name="add_affiliation">Add affiliation</string>
+<string name="edit_affiliation">Edit affiliation</string>
+<string name="prompt_practice_address">Practice Address</string>
+<string name="prompt_practice_name_hint">Practice Name</string>
+<string name="add_practice_address">Add practice address</string>
+<string name="edit_practice_address">Edit practice address</string>
+<string name="prompt_medical_license">Medical License</string>
+<string name="prompt_id_card_passport">Passport/Id Card</string>
+<string name="prompt_identification">Identification</string>
+<string name="prompt_medical_school">Medical School</string>
+<string name="add_medical_school">Add medical school</string>
+<string name="edit_medical_school">Edit medical school</string>
+<string name="practice_address_not_filled">Please fill both name and address</string>
+<string name="select_year_hint">Select year</string>
+<string name="prompt_fellowships">Fellowships</string>
+<string name="add_fellowship">Add fellowship</string>
+<string name="edit_fellowship">Edit fellowship</string>
+<string name="prompt_residencies">Residencies</string>
+<string name="add_residency">Add residency</string>
+<string name="edit_residency">Edit residency</string>
+<string name="warning_specialty_not_found">Specialty not found</string>
+<string name="text_editor_input_hint">Type content here</string>
+<!--
+ **********************************************************************************
+                                Doctor profile end
+    *************************************************************************************** 
+-->
+<!--
+ **********************************************************************************
+       *****************
+       *****************
+       *****************
+                                Video call start
+       ************************************************************************************ 
+-->
+<string name="video_call_with">Call with %s.</string>
+<string name="end_call_confirm">End call?</string>
+<string name="prompt_remaining_time_video_waiting_label">The video will start in %s.</string>
+<string name="prompt_waiting_for_join">
+Waiting for %s to join… Please stay in this screen.
+</string>
+<string formatted="false" name="instant_accepted_request">
+Congratulations! We have connected you with &lt;font color=&quot;#ec8444&quot;&gt;%1$s&lt;/font&gt;.&lt;br&gt;You will be redirected to the video call once &lt;font color=&quot;#ec8444&quot;&gt;%2$s&lt;/font&gt; confirms.
+</string>
+<string name="video_call_failed_permission">
+Unable to make a video call please grant access to microphone and camera to proceed
+</string>
+<!--
+ **********************************************************************************
+                                Video call end
+    *************************************************************************************** 
+-->
+<!--
+ **********************************************************************************
+       *****************
+       *****************
+       *****************
+                                Notification start
+       ************************************************************************************ 
+-->
+<string name="notify_new_messages">%s new messages</string>
+<string name="notify_new_requests">%s new requests</string>
+<string name="notify_new_notifications_qa">%s new notifications in Questions</string>
+<string name="go_to_inbox">Go to inbox</string>
+<string name="notifications">Notifications</string>
+<string name="mark_read">Mark all read</string>
+<string name="notification_settings">Notification Settings</string>
+<string name="notification_receive_message">When I receive new messages</string>
+<string name="notification_remind_appointment">To remind me before a scheduled consultation</string>
+<string name="notification_expired_appointment">When a scheduled consultation is expired</string>
+<string name="notification_doctor_receive_request">When I receive a new consultation request</string>
+<string name="notification_doctor_accept_request">When I accept a consultation request</string>
+<string name="notification_doctor_require_documents">When I need to upload more documents</string>
+<string name="notification_doctor_new_thanks_note">When there are new thanks notes to my answers</string>
+<string name="notification_patient_request_created">When I create a new request successfully</string>
+<string name="notification_patient_request_accepted">When doctors accept my consultation request</string>
+<string name="notification_patient_question_answered">When there are new answers to my questions</string>
+<string name="notification_send_email">Send an email</string>
+<string name="no_unread_notifications">You have no unread notifications</string>
+<!--
+ **********************************************************************************
+                                Notification end
+    *************************************************************************************** 
+-->
+<!--
+ **********************************************************************************
+       *****************
+       *****************
+       *****************
+                                Q&A start
+       ************************************************************************************ 
+-->
+<!--  Questions and Answers -->
+<string name="questions">Questions</string>
+<string name="hint_input_age_gender">
+Please update your gender and year of birth\nto post your first question\n\nTHIS WILL BE A ONE-TIME UPDATE ONLY
+</string>
+<string name="question_input_title">Ask a Question</string>
+<string name="question_edit_title">Edit Question</string>
+<string name="answer_input_title">Post Your Answer</string>
+<string name="answer_edit_title">Edit Answer</string>
+<string name="question_input_hint">Type Your Question here…</string>
+<string name="answer_input_hint">Type Your Answer Here…</string>
+<string name="posting_loading">Posting…</string>
+<string name="question_posted">Question posted</string>
+<string name="qa_content_updated">Some questions and answers have been updated</string>
+<string name="no_answers_hint">No answers</string>
+<string name="no_answers_hint_my_question">
+You will be notified via email when your question is answered
+</string>
+<string name="post_answer_hint">Answer now</string>
+<string name="warning_question_empty">Please input your Question</string>
+<string name="warning_question_too_short">Question should have at least 10 characters</string>
+<string name="warning_answer_empty">Please input your Answer</string>
+<string name="warning_content_not_modify">Content has not been changed</string>
+<string name="delete_question_verify">Delete this question?</string>
+<string name="delete_thank_note_verify">Delete this thank you note?</string>
+<string name="write_thank_note">Write a thank you note…</string>
+<string name="edit_thank_note">Edit your thank you note</string>
+<string name="view_thank_notes">View Notes</string>
+<string name="warning_thank_note_empty">Please input your thank you note</string>
+<string name="sort_filter">Filter &amp; sort</string>
+<string name="error_loading_specialties">Failed to load specialties</string>
+<!--  Sort questions options -->
+<string name="sort_questions_by_popular">Most Popular</string>
+<string name="sort_questions_by_recent">Most Recent</string>
+<!--  Filter questions options -->
+<string name="filter_questions_all">All</string>
+<string name="filter_questions_answered">Answered</string>
+<string name="filter_questions_unanswered">Unanswered</string>
+<string name="filter_questions_my_answers">My Answers</string>
+<string name="filter_questions_my_questions">My Questions</string>
+<string name="filter_questions_following">Following</string>
+<string formatted="false" name="patient_detailed">&lt;b&gt;%1$s&lt;/b&gt; (%2$d, %3$s, %4$s) - %5$s</string>
+<string formatted="false" name="patient_detailed_sub">%1$d, %2$s, %3$s - %4$s</string>
+<string formatted="false" name="who_ask">&lt;b&gt;%1$s&lt;/b&gt; - %2$s</string>
+<plurals name="answers_count">
+<item quantity="one">1 Answer</item>
+<item quantity="other">%s Answers</item>
+</plurals>
+<plurals name="followers_count">
+<item quantity="one">1 Follower</item>
+<item quantity="other">%s Followers</item>
+</plurals>
+<plurals name="agrees_count">
+<item quantity="one">1 Agree</item>
+<item quantity="other">%s Agrees</item>
+</plurals>
+<plurals name="thanks_count">
+<item quantity="one">1 Thank</item>
+<item quantity="other">%s Thanks</item>
+</plurals>
+<string name="you">You</string>
+<string name="report_question">Report</string>
+<string name="reason_spam">Spam</string>
+<string name="reason_inappropriate">Inappropriate Content</string>
+<string name="reason_others">Others</string>
+<string name="reason_others_hint">Please provide information…</string>
+<string name="search_question_answer">Search Q&amp;A content</string>
+<string name="talk_doctor">Talk to Doctor</string>
+<!--
+ **********************************************************************************
+                                Q&A end
+    *************************************************************************************** 
+-->
+<!--
+ **********************************************************************************
+       *****************
+       *****************
+       *****************
+                                Date time format string start
+       ************************************************************************************ 
+-->
+<string name="today">Today</string>
+<string name="date_time_now">a moment ago</string>
+<string name="date_time_yesterday">yesterday</string>
+<plurals name="date_time_minutes_ago">
+<item quantity="one">one minute ago</item>
+<item quantity="other">%d minutes ago</item>
+</plurals>
+<plurals name="date_time_hours_ago">
+<item quantity="one">one hour ago</item>
+<item quantity="other">%d hours ago</item>
+</plurals>
+<!--
+ **********************************************************************************
+                                Date time format string end
+    *************************************************************************************** 
+-->
+<!--
+ **********************************************************************************
+       *****************
+       *****************
+       *****************
+                                Doctors sort options start
+       ************************************************************************************ 
+-->
+<string name="doctors_sort_best_match">All Doctors</string>
+<string name="doctors_sort_price_high_low">Price: high to low</string>
+<string name="doctor_sort_price_low_high">Price: low to high</string>
+<string name="doctors_sort_name_asc">Name: A to Z</string>
+<string name="doctors_sort_name_desc">Name: Z to A</string>
+<!--
+ **********************************************************************************
+                                Doctors sort options end
+    *************************************************************************************** 
+-->
+<!--
+ **********************************************************************************
+       *****************
+       *****************
+       *****************
+                                Doctor actions start
+       ************************************************************************************ 
+-->
+<string name="add_favorite">Add to favorite</string>
+<string name="remove_favorite">Remove from favorite</string>
+<string name="added_favorite">Doctor is added to your favorite</string>
+<string name="removed_favorite">Doctor is removed from your favorite</string>
+<string name="add_colleague">Add to colleagues</string>
+<string name="remove_colleague">Remove from colleagues</string>
+<string name="added_colleague">Doctor is added to colleagues</string>
+<string name="removed_colleague">Doctor is removed from colleagues</string>
+<string name="favorites">Favorites</string>
+<string name="colleagues">Colleagues</string>
+<string name="no_favorites">You don\'t have any favorite doctors yet.</string>
+<string name="no_favorites_intro">
+Add your favorite doctors by visiting a doctor\'s profile and clicking \&quot;Add to favorites\&quot;
+</string>
+<string name="no_colleagues">You don\'t have any colleague doctors yet.</string>
+<string name="no_colleagues_intro">
+Add your colleague doctors by visiting a doctor\'s profile and clicking \&quot;Add to colleagues\&quot;
+</string>
+<!--
+ **********************************************************************************
+                                Doctor actions end
+    *************************************************************************************** 
+-->
+<!--
+ **********************************************************************************
+           *****************
+           *****************
+           *****************
+                                Drawer menu start
+           ************************************************************************************ 
+-->
+<string name="drawer_appointments">Appointments</string>
+<string name="drawer_questions">Questions</string>
+<string name="drawer_doctors">Doctors</string>
+<string name="drawer_messages">Messages</string>
+<string name="drawer_instant_call">Ring a doctor now</string>
+<string name="drawer_instant_ring">Instant Ring</string>
+<string name="drawer_profile">Profile And Settings</string>
+<string name="drawer_available">Available</string>
+<!--
+ **********************************************************************************
+                                Drawer menu end
+    *************************************************************************************** 
+-->
+<!--
+ **********************************************************************************
+           *****************
+           *****************
+           *****************
+                                Connected devices start
+           ************************************************************************************ 
+-->
+<string name="scanning_devices">Scanning connected devices…</string>
+<string name="no_devices_found">No device found</string>
+<string name="bluetooth_off">Bluetooth turned off</string>
+<string name="bluetooth_turn_on_hint">Please turn on bluetooth to use feature</string>
+<string name="bluetooth_not_supported">Your device does not support bluetooth</string>
+<string name="ms_band">Microsoft Band</string>
+<string name="apple_watch">Apple Watch</string>
+<string name="android_wear">Android Wear</string>
+<string name="unknown">Unknown</string>
+<string name="contacting_device">Contacting device…</string>
+<string name="device_not_worn">Please wear your device to start getting data</string>
+<string name="heart_rate">Heart Rate</string>
+<string formatted="false" name="heart_rate_value">
+&lt;big&gt;&lt;big&gt;&lt;b&gt;&lt;font color=&quot;#3bb3e7&quot;&gt;%s&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;/big&gt; bpm
+</string>
+<string name="temperature">Temperature</string>
+<string formatted="false" name="temperature_value">
+&lt;big&gt;&lt;big&gt;&lt;b&gt;&lt;font color=&quot;#3bb3e7&quot;&gt;%s&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;/big&gt; celsius
+</string>
+<string name="gsr">GSR</string>
+<string formatted="false" name="gsr_value">
+&lt;big&gt;&lt;big&gt;&lt;b&gt;&lt;font color=&quot;#3bb3e7&quot;&gt;%s&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;/big&gt; kOhms
+</string>
+<string name="rr_interval">RR Interval</string>
+<string name="rr_interval_hint">
+* Touch and hold the RR Interval icon to listen to heart beat
+</string>
+<string formatted="false" name="rr_interval_value">
+&lt;big&gt;&lt;big&gt;&lt;b&gt;&lt;font color=&quot;#3bb3e7&quot;&gt;%s&lt;/font&gt;&lt;/b&gt;&lt;/big&gt;&lt;/big&gt; secs
+</string>
+<string formatted="false" name="need_permission_value">
+&lt;big&gt;&lt;font color=&quot;#EC8444&quot;&gt;Allow access?&lt;/font&gt;&lt;/big&gt;
+</string>
+<string name="bluetooth_turn_on_share_video_hint">
+If you have a Microsoft Band and want to share your health data from Band to doctor, please turn on bluetooth
+</string>
+<string name="health_share_video_hint">
+Do you allow to share your health data from Microsoft Band to doctor? Health data will be collected and shared to doctor during this video call only.
+</string>
+<!--
+ **********************************************************************************
+                                Connected devices end
+    *************************************************************************************** 
+-->
+<!--
+ **********************************************************************************
+      *****************
+      *****************
+      *****************
+                                Instant request string start
+      ************************************************************************************ 
+-->
+<!--  Patient side -->
+<string name="confirm_quit_scanning">Do you really want to stop?</string>
+<string name="hello_patient">Hello, %s!</string>
+<string name="duration_colon">Duration:</string>
+<string name="consultation_fee_colon">Consultation Fee:</string>
+<string name="cost_colon">Cost:</string>
+<string name="calling_prefix">Calling %s</string>
+<string name="book_appointment">Book appointment</string>
+<string name="find_other_dr">Find other doctors</string>
+<string name="not_available">%s is not available\nright now</string>
+<string name="book_appointment_hint">
+Book an appointment with %s instead,\nchoose a time slot for your call
+</string>
+<string name="instant_call_complete_title">Call complete</string>
+<string name="symptoms_colon">Symptoms:</string>
+<string name="cancel_target_call_hint">
+Taking too long?\nCancel and make an appointment instead\nYou will NOT be charged if you cancel the call
+</string>
+<string name="description_colon">Description:</string>
+<string name="instant_not_allow_back">Please wait!</string>
+<string name="situation_input_hint">Describe your situation here…</string>
+<string name="situation_input_empty">Please describe your situation!</string>
+<string name="situation_example">
+Example: &lt;i&gt;I feel slightly sore in my throat.&lt;/i&gt;&lt;br&gt;&lt;br&gt;and we will find the best doctors for you
+</string>
+<string name="instant_sending_confirm">Confirming call</string>
+<string name="searching_doctors_title">Searching for a Doctor…</string>
+<string name="scanning_doctors_body">We are searching for a doctor\nthat can help you</string>
+<string name="scanning_doctors_retry">
+Our doctors are busy at the moment.\nPlease try again.
+</string>
+<string formatted="false" name="dr_accepted">
+&lt;font color=&quot;#ec8444&quot;&gt;%s&lt;/font&gt; has accepted your call.&lt;br&gt;You will be redirected to the waiting room in &lt;font color=&quot;#ec8444&quot;&gt;%ds&lt;/font&gt;
+</string>
+<!--  Doctor side -->
+<string name="instant_call_common_title">Instant ring</string>
+<string name="incoming">incoming</string>
+<string name="instant_time_remaining">Time left &lt;br&gt;&lt;b&gt;%s&lt;/b&gt;</string>
+<string name="direct_call">Direct call</string>
+<string name="no_instant_call">
+There is no Instant Ring\nfrom patients at this moment.
+</string>
+<string name="instant_stop_reason_released">The request is expired or taken by another doctor.</string>
+<string name="instant_stop_reason_rejected">The request has been taken by another doctor.</string>
+<string name="instant_stop_reason_cancelled">The request has been cancelled.</string>
+<string name="instant_accepting_request">Connecting to patient</string>
+<string name="go_back">Go back</string>
+<string name="back_to_appointments">Back to appointments</string>
+<string name="not_available_instant_call">You are not Available to receive instant calls</string>
+<string name="switch_available">Switch to Available</string>
+<string name="error_specialty_required">Please select at least one specialty</string>
+<string name="require_pick_one_time_slot">Please select one time slot</string>
+<string name="prompt_1min">1 minute</string>
+<string name="not_set">Not set</string>
+<!--
+ **********************************************************************************
+                                Instant request string end
+    *************************************************************************************** 
+-->
+<string name="patient">Patient</string>
+<string name="doctor">Doctor</string>
+<string name="allow">Allow</string>
+<string name="not_allow">Not Allow</string>
+<string name="optional">optional</string>
+<string name="title_doctor">Dr.</string>
+<string name="undo">Undo</string>
+<string name="refresh">Refresh</string>
+<string name="prompt_delete">Delete</string>
+<string name="remove">Remove</string>
+<string name="retry">Retry</string>
+<string name="yes">Yes</string>
+<string name="no">No</string>
+<string name="prompt_next">Next</string>
+<string name="prompt_error">Error</string>
+<string name="prompt_done">Done</string>
+<string name="prompt_notification">Notification</string>
+<string name="prompt_loading">Loading…</string>
+<string name="prompt_logging_out">Logging out…</string>
+<string name="prompt_name">Name</string>
+<string name="prompt_email_and_pass">Email and password</string>
+<string name="prompt_change_password">Change Password</string>
+<string name="change_email">Change Email</string>
+<string name="access_denied">Access Denied</string>
+<string name="not_found">Not Found</string>
+<string name="country_code">Country code</string>
+<string name="prompt_location">Location</string>
+<string name="prompt_save">Save</string>
+<string name="prompt_appointments">Appointments</string>
+<string name="prompt_email">Email</string>
+<string name="new_email">New Email</string>
+<string name="password">Password</string>
+<string name="prompt_old_pass">Old password</string>
+<string name="prompt_new_pass">New password</string>
+<string name="prompt_send_a_message">Send a message</string>
+<string name="prompt_cancel_request">Cancel request</string>
+<string name="prompt_request_a_ring">Request a Ring</string>
+<string name="prompt_intro_what_is_reason_calling">What is the reason for calling?</string>
+<string name="prompt_reason_call_hint">Reason for calling</string>
+<string name="prompt_intro_video_or_phone_call">
+Do you want it to be a video conversation or a phone one?
+</string>
+<string name="prompt_intro_suggest_time">Suggest 3 dates for your call:</string>
+<string name="prompt_video_conversation">Video</string>
+<string name="prompt_call_conversation">Phone</string>
+<string name="reason_call">Reason for Calling</string>
+<string name="prompt_me">Me</string>
+<string name="send">Send</string>
+<string name="prompt_hint_enter_description_photo">Add a description about the photo</string>
+<string name="hint_search_doctors">Search for doctors</string>
+<string name="prompt_browse_a_category">Or browse a category</string>
+<string name="prompt_country">Country</string>
+<string name="separator_dash" translatable="false">-</string>
+<string name="skip">Skip</string>
+<string name="prompt_skip_all">Skip All</string>
+<string name="prompt_pick">Pick up</string>
+<string name="prompt_yesterday">Yesterday</string>
+<string name="prompt_busy">Busy</string>
+<string name="prompt_online">Online</string>
+<string name="prompt_biography">Biography</string>
+<string name="prompt_specialties">Specialties</string>
+<string name="prompt_header_topbar_doctors">Doctors</string>
+<string name="prompt_header_basic_info">Basic Information</string>
+<string name="prompt_header_change_pass">Change Password</string>
+<string name="call_request_prefix">Ring %s</string>
+<string name="prompt_header_topbar_appoinments">My Appointments</string>
+<string name="title_call_request_to">Request to %s</string>
+<string name="title_call_request_from">%s Yêu cầu từ</string>
+<string name="prompt_header_topbar_inbox">Tin nhắn</string>
+<string name="search">Tìm kiếm</string>
+<string name="clear_history">Xóa lịch sử</string>
+<string name="prompt_no_appointments">\n Bạn không có bất kỳ cuộc hẹn nào</string>
+<string name="prompt_no_appointments_intro">Chọn một bác sĩ</string>
+<string name="prompt_no_inbox">Bạn không có bất kỳ tin nhắn nào.</string>
+<string name="error_message_no_internet_connection">
+Rất tiếc, có một vấn đề kết nối. Bạn có muốn mở Wireless Control để giải quyết vấn đề này?
+</string>
+<string name="error_invalid_email">Thư điện tử không hợp lệ. Vui lòng thử lại!</string>
+<string name="error_pass_required">Vui lòng nhập mật khẩu của bạn!</string>
+<string name="error_tooshort_password">
+Mật khẩu quá ngắn. Mật khẩu phải có ít nhất 6 ký tự.
+</string>
+<string name="error_upperchar_password">Mật khẩu này phải có ít nhất trên một ký tự</string>
+<string name="error_specialchar_password">Mật khẩu này phải có ít nhất một ký tự đặc biệt</string>
+<string name="error_space_password">Mật khẩu này không được chứa dấu cách</string>
+<string name="error_name_required">Vui lòng nhập tên đầy đủ của bạn!</string>
+<string name="error_phone_number_required">Vui lòng nhập số điện thoại của bạn</string>
+<string name="error_phone_number_invalid">Số điện thoại không hợp lệ</string>
+<string name="error_reason_calling_required">Xin vui lòng nhập mục đích cuộc gọi!</string>
+<string name="error_card_holder_name_required">Vui lòng nhập tên chủ tài khoản của bạn!</string>
+<string name="error_card_holder_number_required">Vui lòng nhập mã số thẻ của bạn!</string>
+<string name="error_card_holder_code_required">Vui lòng nhập mã cvc của bạn!</string>
+<string name="error_card_holder_number_too_short">
+Số tài khoản được yêu cầu phải có ít nhất 16 ký tự!
+</string>
+<string name="error_card_holder_code_too_short">Mã tài khoản được yêu cầu phải có ít nhất 3 ký tự!</string>
+<string name="error_parsing_data">Lỗi phân tích dữ liệu!</string>
+<string name="error_unknown">Lỗi không rõ</string>
+<string name="error_unknown_host">
+Xin lỗi! Chúng tôi hiện đang gặp khó khăn về kỹ thuật và không thể hoàn tất quá trình tại thời điểm này. Vui lòng quay lại sau.
+</string>
+<string name="change_pass_success">Mật khẩu đã được cập nhật thành công</string>
+<string name="change_update_success">Cập nhật thành công!</string>
+<string name="success">Sự thành công</string>
+<!--  For 1.3  -->
+<string name="prompt_suggested_time_slots">Khung thời gian đề xuất</string>
+<string name="prompt_select_date_and_confirm">Chọn ngày và xác nhận</string>
+>
+<string name="prompt_select_date_and_hour">Chọn ngày và giờ</string>
+<string name="prompt_header_topbar_filter">Lọc:</string>
+<string name="error_must_logout">
+Phiên bản mới của RingMD trên Android yêu cầu bạn đăng nhập lại để thay đổi có tác dung.
+</string>
+<string name="prompt_go_to_chat_room">Vào phòng trò chuyện</string>
+<string name="prompt_day">Ngày</string>
+<string name="prompt_days">Ngày</string>
+<string name="prompt_hour">Giờ</string>
+<string name="prompt_hours">Giờ</string>
+<string name="prompt_minute">Phút</string>
+<string name="prompt_minutes">Phút</string>
+<string name="prompt_second">Thứ hai</string>
+<string name="prompt_seconds">Giây</string>
+<string name="less_than">%s ít hơn</string>
+<string name="active_appointment_title">Hoạt động</string>
+<string name="past_appointment_title">Lịch sử</string>
+<string name="prompt_request_new_ring">Request a new Ring</string>
+<string name="prompt_no_results">No matching results</string>
+<string name="prompt_please_try_another_keyword">
+Vui lòng nhập từ khóa hoàn chỉnh cho kết quả tìm kiếm tốt hơn
+</string>
+<string name="error_speciality_required">Vui lòng chọn một chuyên môn.</string>
+<!--  For 1.4  -->
+<string name="error_email_taken">Email này đã được sử dụng.</string>
+<string name="error_language_required">Vui lòng chọn ít nhất một ngôn ngữ</string>
+<string name="prompt_languages_intro">Ngôn ngữ</string>
+<string name="prompt_title_select_language_dialog">Chọn ngôn ngữ bạn nói</string>
+<string name="prompt_filter_by">Lọc theo:</string>
+<string name="prompt_sort_by">Phân loại theo</string>
+<string name="warning_year_missing">Vui lòng chọn năm</string>
+<string name="warning_affiliation_input_missing">Vui lòng nhập một liên kết hợp lệ</string>
+<string name="warning_award_input_missing">Vui lòng nhập một giải thưởng có giá trị</string>
+<string name="warning_hospital_missing">Vui lòng cung cấp một tên bệnh viện hợp lệ</string>
+<string name="warning_school_missing">Vui lòng cung cấp một tên học hợp lệ</string>
+<!--  Profile -->
+<string name="primary_specialty">Đặc biệt chính</string>
+<string name="primary_specialty_hint">Chọn một chuyên gia</string>
+<string name="subspecialties_special_interest">Khoa phụ và Sở thích đặc biệt</string>
+<string name="subspecialties">Khoa phụ</string>
+<string name="subspecialties_hint">Thêm một chuyên khoa ...</string>
+<string name="special_interests">Sở thích đặc biệt</string>
+<string name="special_interests_hint">Thêm quan tâm đặc biệt hơn nữa</string>
+<string name="currency">Tiền tệ</string>
+<string name="currency_and_price">Tiền tệ và giá cả cho mỗi tư vấn</string>
+<string name="price_per_consultation">Giá mỗi cuộc khám bệnh</string>
+<string name="price">Giá</string>
+<string name="price_short">Ngắn gọn</string>
+<string name="price_medium">Trung gian</string>
+<string name="price_long">Toàn diện</string>
+<string name="price_short_hint">(Ít hơn 10 phút)</string>
+<string name="price_medium_hint">(Từ 10 đến 30 phút)</string>
+<string name="price_long_hint">(Hơn 30 phút)</string>
+<string name="price_value_invalid">Giá không hợp lệ</string>
+<string name="price_value_required">Hãy giá đầu vào</string>
+<string name="price_medium_constrain">
+Giá cho cuộc gọi vừa phải không thấp hơn giá cho cuộc gọi ngắn
+</string>
+<string name="price_long_constrain">
+Giá cho cuộc gọi dài không được thấp hơn giá cho các cuộc gọi trung bình
+</string>
+<string name="account_not_approved_for_feature">
+Tài khoản của bạn chưa được phê duyệt, do đó bạn tạm thời không thể sử dụng tính năng này
+</string>
+<!--  Conversation  -->
+<string name="error_sending_message">Chưa được gửi. Chạm để thử lại</string>
+<string name="message_input_hint">Gõ nhắn</string>
+<string name="switch_account">Chuyển tài khoản</string>
+<!--  Payment for appointment -->
+<string name="checkout">Kiểm tra</string>
+<!--  Upload / download file -->
+<string name="prompt_uploading">Đang tải lên…</string>
+<string name="upload_success">Tải lên thành công</string>
+<string name="upload_failed">Tải lên thất bại</string>
+<string name="upload_failed_message">Tải lên thất bại, xem xét nội dung và thử lại</string>
+<string name="upload_preview_attachment">Xem trước tập tin đính kèm</string>
+<string name="attachment">Tập tin đính kèm</string>
+<string name="no_image_crop_app">Không thể tìm thấy ứng dụng để cắt hình ảnh</string>
+<string name="error_file_created_local">
+Không thể lưu tập tin, xin vui lòng kiểm tra bộ nhớ của bạn
+</string>
+<string name="error_read_file_content">Không thể đọc nội dung tập tin!</string>
+<string name="dlg_title_no_connection">Không có kết nối</string>
+<!--  Force update  -->
+<string name="msg_must_upgrade">
+Một phiên bản mới của RingMD trên Android đã được cập nhật. Vui lòng nâg cấp lên phiên bản mới nhất.
+</string>
+<string name="upgrade">Nâng cấp</string>
+<string name="no_app_for_content">
+Không thể tìm thấy bất kỳ ứng dụng trên thiết bị để xem nội dung
+</string>
+</resources>
