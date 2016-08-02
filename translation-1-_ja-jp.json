@@ -1,0 +1,1035 @@
+{
+  "address_carousel": {
+    "add_button": "ADD save search for saved",
+    "add_button_desc": "新しいアドレスを追加します。",
+    "edit_button": "編集",
+    "edit_button_desc": "このアドレスを編集します。",
+    "header": "マイアドレス",
+    "header_2": "Myアドレス帳",
+    "no_addresses": "アカウントにアドレスを追加します。",
+    "addAddress": {
+      "successMessage": "アドレスを保存しました。"
+    },
+    "deleteAddress": {
+      "successMessage": "アドレスが正常に削除されました。"
+    },
+    "errors": {
+      "invalid_shipping_country": "この商人は、このアドレスの国に配信されません。"
+    },
+    "warnings": {
+      "invalid_billing_country": "この請求先住所の国はこの販売者によって受け付けられません。"
+    }
+  },
+  "address_crud": {
+    "field_label": {
+      "first_name": "ファーストネーム",
+      "last_name": "苗字",
+      "person_name": "人物名",
+      "address_line1": "住所1",
+      "address_line1_BR": "アドレス",
+      "address_line1_street": "通り",
+      "address_line1_ariaLabel": "オートコンプリート。編集して、移動には矢印キーを上下に使用します",
+      "address_line2": "住所2（オプション）",
+      "address_line2_house": "ハウス/アパート番号",
+      "address_line2_BR": "ご近所",
+      "address_line3": "郊外（オプション）",
+      "address_line3_landmark": "ランドマーク",
+      "address_line3_BR": "基準点",
+      "address_number": "数",
+      "address_complement": "補体（オプション）",
+      "address_city": "シティ",
+      "address_city_SG": "シンガポール",
+      "address_city_district": "地区",
+      "address_city_town": "市/町",
+      "address_city_town_city": "町/市",
+      "address_county": "郡",
+      "state_province_code": "州/郡",
+      "state_province_code_state": "状態",
+      "state_province_code_province": "州",
+      "postal_code_postcode": "郵便番号",
+      "postal_code_postcode_optional": "郵便番号（オプション）",
+      "postal_code_zipcode": "郵便番号",
+      "postal_code_cep": "CEP",
+      "postal_code_pincode": "ピンコード",
+      "postal_code": "郵便番号",
+      "postal_code_US": "郵便番号",
+      "postal_code_CA": "郵便番号",
+      "postal_code_AU": "郵便番号",
+      "postal_code_NZ": "郵便番号",
+      "postal_code_EN": "郵便番号",
+      "postal_code_BR": "CEP",
+      "postal_code_CN": "郵便番号",
+      "postal_code_CO": "郵便番号",
+      "postal_code_CL": "郵便番号",
+      "postal_code_AR": "郵便番号",
+      "postal_code_MX": "郵便番号",
+      "postal_code_PE": "郵便番号",
+      "country_code": "カントリー",
+      "address_phone": "電話番号",
+      "address_phone_US": "電話番号",
+      "address_phone_CA": "電話番号",
+      "address_phone_AU": "携帯電話番号",
+      "address_phone_NZ": "電話番号",
+      "address_phone_EN": "電話番号",
+      "address_phone_BR": "電話番号",
+      "address_phone_CN": "電話番号",
+      "address_phone_HK": "電話番号",
+      "address_phone_CO": "電話番号",
+      "address_phone_CL": "電話番号",
+      "address_phone_AR": "電話番号",
+      "address_phone_MX": "電話番号",
+      "address_phone_PE": "電話番号",
+      "pref_address": "この私の好適なアドレスを作ります",
+      "pref_delivery_address": "私の好み配信アドレスを作ります",
+      "optional": "（任意）",
+      "email": "電子メールアドレス"
+    },
+    "button_label": {
+      "cancel": "キャンセル",
+      "add_new": "新しいアドレスを追加します。",
+      "update": "更新",
+      "delete": "削除",
+      "use_address": "このアドレスを使用",
+      "use_address_recommended": "推奨アドレスを使用します",
+      "use_address_entered": "入力したアドレスを使用します",
+      "edit": "編集",
+      "add": "ADD save search for saved",
+      "use_recommended": "推奨されるアドレスを使用します",
+      "use_entered": "入力したアドレスを使用します"
+    },
+    "heading": {
+      "h1": {
+        "add_new": "アドレスを追加",
+        "update_delete": "編集住所",
+        "verify_address": "あなたの住所を確認してください",
+        "address_notfound": "住所が見つかりません",
+        "update_delete_desc": "ビザチェックアウトは、あなたのアドレスを編集します"
+      },
+      "h2": {
+        "you_entered": "あなたが入力したアドレス",
+        "recommended_address": "推奨住所",
+        "entered_address": "あなたが入力したアドレス"
+      }
+    },
+    "page": {
+      "address_notfound": {
+        "description": {
+          "long": "私たちは、あなたが郵便で入力したアドレスを確認できませんでした。あなたはとにかくそれを追加しますか？"
+        }
+      },
+      "suggested_address": {
+        "description": {
+          "long": "あなたが入力したアドレスは、郵便サービスレコードと一致していません。我々は、我々の提案を強調しました："
+        }
+      }
+    },
+    "confirmation": {
+      "delete_address": "あなたは永久にこのアドレスを削除してもよろしいですか？"
+    },
+    "billing_address": {
+      "help_content": "これは、銀行の明細書にクレジットカード/デビットカードに関連付けられているアドレスです。"
+    },
+    "helper_text": {
+      "address_line1_number": "番号と通りの名前",
+      "address_line1_street": "ストリート、番号、床、ドアなど",
+      "address_line2": "例えば、アパート、スイート、床、等",
+      "address_line2_locality": "地域",
+      "address_line2_apartment": "アパート、建物、フロアなど",
+      "county": "郡を選択または入力します。",
+      "state_province_code": "",
+      "state_province_code_eg": "例えばカリフォルニア州、ワシントン州",
+      "state_province_code_2_3_letters": "2-3手紙",
+      "state_province_code_select": "地域を選択または入力します。",
+      "postal_code_dublin": "ダブリンエリアまたはEircode",
+      "postal_code_poland_mask": "XX-XXX",
+      "postal_code_india_mask": "XXXXXX",
+      "state_province_code_US": "",
+      "email": "Address@example.com"
+    },
+    "errors": {
+      "add_new_address": {
+        "invalid_address": "有効なアドレス情報を入力してください。",
+        "validation_service": "申し訳ありませんが、我々はあなたが郵便で入力したアドレスを確認できませんでした。あなたはとにかくそれを保存しますか？",
+        "unable_to_add": "申し訳ありませんが、現時点ではリクエストを処理できません。ご不便をおかけして申し訳ございません。"
+      },
+      "update_address": {
+        "invalid_address": "有効なアドレス情報を入力してください。",
+        "not_found": "私たちはあなたのアドレスを見つけることができません。有効なアドレス情報を入力してください。",
+        "validation_service": "申し訳ありませんが、我々はあなたが郵便で入力したアドレスを確認できませんでした。あなたはとにかくそれを保存しますか？",
+        "unable_to_add": "申し訳ありませんが、現時点ではリクエストを処理できません。ご不便をおかけして申し訳ございません。"
+      },
+      "delete_address": {
+        "not_found": "私たちはあなたのアドレスを見つけることができません。有効なアドレス情報を入力してください。",
+        "unable_to_add": "申し訳ありませんが、現時点ではリクエストを処理できません。ご不便をおかけして申し訳ございません。"
+      }
+    },
+    "phone_input": {
+      "label": "電話番号",
+      "label_invalid": "無効な電話番号",
+      "clear": "別の電話番号を使用します",
+      "filter_placeholder": "選択または国を入力してください",
+      "filter_invalid_label": "無効な国",
+      "filter_invalid_description": "いいえ国はあなたが入力した内容に一致する見つかりませんでした。あなたのエントリを変更してください。",
+      "dropdown": "国コードセレクタ、__selectedCountryName__国コード+ _ selectedCountryDialCode__。崩壊したメニュー項目。 __selectedCountryName__ __selectedCountryDialCode__",
+      "country": "__selectedCountryName__ 、国コード+ __selectedCountryDialCode__",
+      "x_to_y_digits": "__min__ 桁 __max__"
+    },
+    "delete_address_modal": {
+      "delete_confirmation": "あなたはビザチェックアウトから永久に__line1__を削除しようとしています。本気ですか？ __line1__",
+      "title": "ちょうど秒...",
+      "delete": "はい、削除"
+    }
+  },
+  "localizedCountries": "米国、CA、AU、NZ",
+  "test": {
+    "field_label": {
+      "card_number": "カード番号"
+    },
+    "heading": {
+      "h1": {
+        "billing": "請求先住所",
+        "shipping": "お届け先の住所"
+      }
+    },
+    "button_label": {
+      "add_card": "カードを追加"
+    },
+    "errors": {
+      "add_new_card": {
+        "invalid_card": "有効なカード情報を入力してください。"
+      }
+    }
+  },
+  "challenge": {
+    "confirm": "あなたの身元を確認",
+    "to_confirm": "あなたの身元を確認するには、次の質問にお答えください。",
+    "continue_button": "持続する",
+    "challenge": "あなたの身元を確認"
+  },
+  "challenge_fail": {
+    "not_confirm": "同一性を確認することができません。",
+    "not_verify": "ご不便をおかけして申し訳ございませんが、我々はあなたの身元を確認することができません。",
+    "dif_user_button": "別のユーザーとしてサインイン",
+    "all_store": "すべての加盟店を参照してください。",
+    "visa_intro": "ビザチェックアウトは、オンラインショッピングの経験を通して、あなたの追い越し車線です。",
+    "fail_shop_button": "どこで買い物をします",
+    "incorrect_answer": "申し訳ありませんが、あなたが提供する答えが間違っていました。もう一度やり直してください。",
+    "continue_checkout": "あなたはまだビザチェックアウトを続行しますか？",
+    "create_account_button": "新規顧客として続行"
+  },
+  "bundle_pi": {
+    "add": "ADD save search for saved",
+    "add_a_card": "カードを追加",
+    "add_button_desc": "新しいアドレスを追加します。",
+    "add_button_text": "請求先住所を追加",
+    "add_card": "カードを追加",
+    "back": "バック",
+    "billing_address": "請求先住所",
+    "cancel": "キャンセル",
+    "cancel_button_desc": "編集カードをキャンセル",
+    "card_art_desc": "あなたのカード画像の背面にご桁のセキュリティコードを探します %s",
+    "card_details": "カードの詳細",
+    "card_failed_threeds": "金融機関は、このカードを認証することができませんでした。",
+    "card_expired": "このカードは有効期限が切れています。",
+    "card_list": "カードリスト",
+    "card_nickname": "カードのニックネーム（オプション）",
+    "card_nickName": "私のカード %s %s",
+    "card_not_verified": "あなたはこのカードを使用する前に、追加情報が必要とされています。",
+    "card_number": "カード番号",
+    "card_number_placeholder": "15から16桁の数字",
+    "change": "変化する",
+    "confirm_billing_address": "請求先住所の確認",
+    "continue": "持続する",
+    "delete": "削除",
+    "delete_button_desc": "カードを削除",
+    "delete_card": "カードを削除",
+    "delete_card_confirmation": "あなたは永久にこのカードを削除してもよろしいですか？",
+    "edit": "編集",
+    "edit_button_desc": "このアドレスを編集します。",
+    "edit_button_text": "編集請求先住所",
+    "edit_card": "編集カード",
+    "expiration_date": "有効期限",
+    "expired": "期限切れの",
+    "expires": "有効期限",
+    "expiresHelperText": "MMYY",
+    "funding_option": "資金調達のオプションを選択します",
+    "generated_card_nickname": "私のカード __brand__ __type__",
+    "gxo_add_card_next_message": "<strong> 次へ：あなたの情報を確認します。あなたはそこに必要な変更を加えることができるでしょう。 </strong> <br/>",
+    "make_this_my_preferred_card": "プリファードカード",
+    "my_preferred_card": "私の好適カード",
+    "nickname_combo_credit_default": "ビザクレジット",
+    "nickname_combo_electron_debit_default": "ビザエレクトロン（デビット）",
+    "nickname_combo_visa_debit_default": "ビザ",
+    "nickname_combo_visa_debit_select_force_selection": "継続するために、あなたのコンボカードに資金を供給する方法を選択します。",
+    "no_cc_by_brand": "この商人は__cardBrand____cardType__を受け入れません。 __cardBrand__ __cardType__",
+    "no_thanks": "結構です",
+    "not_available": "利用不可",
+    "or": "または",
+    "security_code": "セキュリティコード",
+    "security_code_len": "三",
+    "security_code_len_amex": "4つの",
+    "submit": "提出します",
+    "to_continue": "続ける。",
+    "update_button_desc": "更新カード",
+    "update_card": "更新",
+    "use_delivery_address": "配信アドレスを使用します",
+    "will_expire": "によって有効期限",
+    "you_must_use": "あなたが使用する必要があります。",
+    "a11y": {
+      "card_voice_over": "__nickName__ 。最後の4桁：。有効期限： 。請求先住所： 。 __lastFourDigits__ __expiry__ __ba__",
+      "close_warning": "閉じるエラーメッセージパネル。",
+      "open_warning": "カードは利用できません。オープンエラーメッセージパネル。"
+    },
+    "card_brand_label": {
+      "visa": "ビザ",
+      "mastercard": "マスターカード",
+      "discover": "発見する",
+      "amex": "アメリカンエキスプレス",
+      "electron": "ビザエレクトロン",
+      "elo": "エロ"
+    },
+    "card_indicator": {
+      "generic": "カードブランドイメージ",
+      "visa": "これは、ビザカードです",
+      "mastercard": "これは、マスターであります",
+      "discover": "これは、Discoverカードです",
+      "amex": "これは、アメリカン・エキスプレスのカードであります"
+    },
+    "delete_card_modal": {
+      "are_you_sure": "ちょうど秒...",
+      "could_not_delete": "申し訳ありませんが、技術的な問題を経験し、このカードを削除することができませんでした。あなたのチェックアウトを続けるには再試行するか、キャンセルしてください。",
+      "delete": "はい、削除",
+      "delete_confirmation": "あなたはこのカードを削除してもよろしいですか？",
+      "deleted_successfully": "あなたのカードが正常に削除されました。",
+      "message": "あなたは永久にビザCheckoutから...で終わるあなたのカードを削除しようとしています。本気ですか？ %s"
+    },
+    "funding_option_type": {
+      "credit": "クレジット",
+      "electron": "エレクトロン（借方）"
+    },
+    "helper_text": {
+      "card_nickname": "例えば、私のポイントカード"
+    },
+    "placeholder": {
+      "expiry": "MM / YY"
+    },
+    "mask": {
+      "expiry": "MM / YY"
+    }
+  },
+  "errors": {
+    "not_accepted": "受け入れられません。",
+    "not_accepted_by_merchant": "この商人はこのカードを受け付けていません。",
+    "addpi": {
+      "account_locked": "不正アクセスを防ぐために、あなたの保護のためにと申し訳ありませんが、我々は一時的にアカウントをロックしました。後でもう一度試してみてください、または新しいアカウントを作成します。",
+      "already_added": "おっとっと。このカードは既に追加されているように見えます。別のカードを追加してみてください。",
+      "avs_failed": "申し訳ありませんが、あなたのエントリの1つ以上が、現時点では無効のようです。別のアドレスを入力してみてください。",
+      "avs_cvs_failed": "申し訳ありませんが、あなたのエントリの1つ以上が、現時点では無効のようです。訂正したり、別のカードとアドレスを入力してみてください。",
+      "cvs_failed": "申し訳ありませんが、あなたのエントリの1つ以上が、現時点では無効のようです。訂正したり、別のカードを入力してみてください。",
+      "internal_error": "申し訳ありませんが、現時点ではリクエストを処理できません。別のカードを使用してみてください。",
+      "invalid_request": "申し訳ありませんが、あなたのリクエストを処理できません。もう一度やり直してください。",
+      "invalid_card_number": "申し訳ありませんが、あなたのカード番号が、現時点では無効のようです。訂正したり、別のカードを入力してみてください。",
+      "max_attempts": "あなたは、お支払い方法を追加または編集するための最大許容試行を超えました。 24時間後にもう一度試してください。",
+      "no_match_on_record": "あなたが入力した情報は、記録上の情報と一致しません",
+      "not_found": "申し訳ありませんが、そのカードを見つけることができません。別のカードを追加してみてください。",
+      "not_permitted_country": "申し訳ありませんが、あなたのカード番号が、現時点では受付できません。別のカードを入力してみてください。",
+      "risk_check": "お支払い情報が正しくありません。もう一度やり直してください。",
+      "unauthorized": "申し訳ありませんが、現時点ではリクエストを処理できません。あなたの情報が正しいことを確認して、もう一度お試しください。"
+    },
+    "updatepi": {
+      "cannot_update": "申し訳ありませんが、この時点であなたの情報を更新することができません。別のカードを使用してみてください。",
+      "internal_error": "申し訳ありませんが、現時点ではリクエストを処理できません。別のカードを使用してみてください。",
+      "invalid_request": "申し訳ありませんが、現時点ではリクエストを処理できません。別のカードを使用してみてください。",
+      "max_attempts": "あなたは、お支払い方法を追加または編集するための最大許容試行を超えました。 24時間後にもう一度試してください。",
+      "no_match_on_record": "あなたが入力した情報は、記録上の情報と一致しません",
+      "not_found": "申し訳ありませんが、そのカードを見つけることができません。別のカードを追加してみてください。",
+      "risk_check": "お支払い情報が正しくありません。もう一度やり直してください。",
+      "unauthorized": "申し訳ありませんが、現時点ではリクエストを処理できません。別のカードを使用してみてください。"
+    },
+    "genericErrorMessage": "無効 __fieldLabel__",
+    "genericErrorMessage_page": "継続するには、有効なPINコードを入力してください。 __fieldLabel__",
+    "address": {
+      "address_city_town": "無効市/町",
+      "address_city_town_page": "継続するには、有効な都市/町を入力してください。",
+      "address_town_city": "無効な町/市",
+      "address_town_city_page": "継続して有効町/都市を入力してください。",
+      "county": "無効郡",
+      "county_page": "続けるには郡を入力するか選択してください。",
+      "postal_code_postcode": "無効な郵便番号",
+      "postal_code_postcode_page": "継続するには、有効な郵便番号を入力してください。",
+      "postal_code_pincode": "無効なPINコード",
+      "postal_code_pincode_page": "継続するには、有効なPINコードを入力してください。",
+      "address_line1_street": "無効なストリート",
+      "address_line1_street_page": "継続するには、有効な通りを入力してください。",
+      "state_province_code_province": "無効な省",
+      "state_province_code_province_page": "入力または継続する地域を選択してください。",
+      "address_error": "続けるには有効なアドレスを入力してください。",
+      "phone_error": "続行するには有効な電話番号で更新してください。",
+      "email_error": "続行するには有効なメールアドレスを更新してください。",
+      "landmark": "無効なランドマーク",
+      "landmark_page": "有効なランドマークを入力してください。"
+    },
+    "createAccountTaxIdCPFValidation": "無効なCPF",
+    "createAccountTaxIdCPFValidation_page": "継続するには、有効なCPFを入力してください。",
+    "change_password_errors": {
+      "four_zero_six": "古いパスワードが正しくありません。もう一度やり直してください。",
+      "four_one_seven": "個人情報や以前のパスワードを使用していない、別のパスワードを選択してください。",
+      "general_error": "あなたのパスワードを更新できませんでした。",
+      "validation_error": "別のパスワードを選択してください。",
+      "enter_old_password": "古いパスワードを入力します。",
+      "enter_new_password": "パスワードを入力してください。",
+      "password_invalid": "必要最低限​​を満たしている別のパスワードを選択してください"
+    },
+    "login": {
+      "locked": "申し訳ありませんが、あなたの保護のために、アカウントがロックされています。あなたは、「忘れた」をクリックするだけで再度ログインしようとするか、後でやり直してくださいすることができます。",
+      "disabled": "申し訳ありませんが、現時点ではリクエストを処理できません。あなたの保護のために、あなたのアカウントは一時的に無効にされています。カスタマー・サポートに連絡してください。",
+      "incorrect": "あなたは不正なユーザ名やパスワードを入力しました。",
+      "incorrect_2": "あなたは不正なユーザ名やパスワードを入力しました。パスワードを忘れた場合は、「お忘れですか？」をクリックします。",
+      "unavailable": "申し訳ありませんが、現時点ではリクエストを処理できません。後でもう一度試すか、カスタマー・サポートに連絡してください。",
+      "profileNaN": "あなたは不正なユーザ名やパスワードを入力しました。",
+      "deny": "あなたは、最大許容試行を超えました。数時間またはカスタマサポートに問い合わせて後に再度お試しください。"
+    },
+    "user_lookup": {
+      "account_already_exists": "アカウントは既にこのメールアドレスで存在します",
+      "account_already_exists_page": "アカウントはすでにあなたが提供するメールアドレスに存在します。継続するためには、あなたは、あなたのアカウントにログインパスワードをリセットするか、別のメールアドレスを使用することができます。"
+    },
+    "password": {
+      "tooShort": "無効なパスワード",
+      "tooLong": "無効なパスワード",
+      "hasUnsupported": "無効なパスワード",
+      "hasConsecutiveChars": "無効なパスワード",
+      "hasSpaces": "無効なパスワード",
+      "hasUserName": "無効なパスワード",
+      "sameAsPrevious": "無効なパスワード",
+      "tooShort_page": "申し訳ありませんが、6文字以上はパスワードのために必要とされます。",
+      "tooLong_page": "パスワードは32文字以上を含めることはできません。",
+      "hasUnsupported_page": "申し訳ありませんが、のみサポートしています！ @＃$％＆*？パスワードの。",
+      "hasConsecutiveChars_page": "申し訳ありませんが、パスワードの入力を3回連続同一の文字を入力することはできません。",
+      "hasSpaces_page": "申し訳ありませんが、パスワードは、スペースを含めることはできません。",
+      "hasUserName_page": "申し訳ありませんが、あなたのパスワードは、電子メールまたは携帯電話番号の一部を含めることはできません。",
+      "sameAsPrevious_page": "新しいパスワードは、あなたの前のものと同じにすることはできません。別のパスワードを入力してください。"
+    },
+    "models": {
+      "payment_instrument": {
+        "attributes": {
+          "accountNumber": {
+            "invalid": "無効な番号 __type__",
+            "invalidDefault": "無効なカード番号",
+            "invalidVisa": "無効なビザ番号",
+            "invalidElo": "無効のEloカード番号",
+            "invalidElectron": "無効な電子数",
+            "invalidMasterCard": "無効なマスターカード番号",
+            "invalidAmex": "無効なアメリカン・エキスプレス番号",
+            "invalidDiscover": "無効なディスカバーカード番号",
+            "invalid_page": "申し訳ありませんが、あなたが入力した番号は、有効な電子番号として認識されません。 __type__",
+            "invalidDefault_page": "申し訳ありませんが、あなたが入力した番号が有効なカード番号として認識されません。",
+            "invalidVisa_page": "申し訳ありませんが、あなたが入力した番号が有効なビザ番号として認識されません。",
+            "invalidElo_page": "申し訳ありませんが、あなたが入力した番号が有効なのEloカード番号として認識されません。",
+            "invalidElectron_page": "申し訳ありませんが、あなたが入力した番号は、有効な電子番号として認識されません。",
+            "invalidMasterCard_page": "申し訳ありませんが、あなたが入力した2番目の番号は、有効なマスターカード番号として認識されません。",
+            "invalidAmex_page": "申し訳ありませんが、あなたが入力した第2の数が有効なアメリカン・エキスプレス番号として認識されません。",
+            "invalidDiscover_page": "申し訳ありませんが、あなたが入力した番号が有効なディスカバーカード番号として認識されません。",
+            "unaccepted": "申し訳ありませんが、このマーチャントはこのカードを受け付けていません。"
+          },
+          "expirationDate": {
+            "blank": "無効な日付",
+            "invalid": "無効な日付",
+            "invalidPast": "無効な日付",
+            "invalidMonth": "無効な日付",
+            "invalidMonth_page": "申し訳ありませんが、あなたが存在しない月を入力しました。",
+            "invalidPast_page": "申し訳ありませんが、過去の日付を入力しました。",
+            "blank_page": "継続して有効な日付を入力してください。",
+            "invalid_page": "継続して有効な日付を入力してください。"
+          }
+        }
+      }
+    }
+  },
+  "carousel": {
+    "billing_address": {
+      "selected_is": "選択した請求先住所があります",
+      "nav_go_to_previous": "前の請求先住所",
+      "nav_go_to_next": "次の請求先住所",
+      "nav_active": "あなたは、請求先住所の数にあります",
+      "nav_go_to_first": "最初の請求先住所に行きます",
+      "nav_go_to_last": "最後の請求先住所に行きます",
+      "pag_go_to_item_number": "請求先住所番号に移動します",
+      "unaccepted": "この請求先住所の国はこの販売者によって受け付けられません。"
+    },
+    "shipping_address": {
+      "nav_go_to_first": "最初の請求先住所に行きます",
+      "nav_go_to_last": "最後の請求先住所に行きます",
+      "nav_go_to_next": "次の請求先住所に行きます",
+      "nav_go_to_previous": "以前の請求先住所に行きます",
+      "nav_active": "現在選択されているアドレス",
+      "pag_go_to_item_number": "アドレスに移動します"
+    },
+    "payment_instrument": {
+      "selected_is": "選択した支払手段であります",
+      "nav_go_to_previous": "前回の支払い機器番号に移動します",
+      "nav_go_to_next": "次の支払機器番号に移動します",
+      "nav_go_to_first": "最初の決済手段に行きます",
+      "nav_go_to_last": "最後の決済手段に行きます",
+      "nav_active": "あなたは、支払手段の数にあります",
+      "pag_go_to_item_number": "決済手段番号に移動します",
+      "expires": "経験。",
+      "about_to_expire": "有効期限",
+      "expired": "期限切れの",
+      "nickname": "私のカード %s %s"
+    },
+    "of": "の",
+    "payment-instrument": {
+      "nav_go_to_first": "最初のカードに移動します",
+      "nav_go_to_last": "最後のカードに移動します",
+      "nav_go_to_next": "次のカードに移動します",
+      "nav_go_to_previous": "前のカードに移動します",
+      "nav_active": "現在選択されているカード",
+      "pag_go_to_item_number": "カードに移動します"
+    }
+  },
+  "bundle_session": {
+    "warning_modal": {
+      "header": "あなたのセッションの有効期限が近づいています。",
+      "close_button": "クローズ",
+      "continue_session_button": "セッションを継続",
+      "subtext": "あなたは以下続行したい方法を選択します。",
+      "about_to_expire": "あなたのセッションの有効期限が近づいています。",
+      "click_continue": "あなたはより多くの時間が必要な場合は、 をクリックします",
+      "continue_button": "持続する"
+    },
+    "expired_page": {
+      "header": "あなたのセッションの有効期限が切れています",
+      "subtext": "あなたのセキュリティを強化するために、セッションが非アクティブのために有効期限が切れています。続行するには、新しいセッションを開始するために、再度ビザCheckoutアカウントにログインしてください。",
+      "sign_in_button": "サインインするために行きます",
+      "continue_button": "持続する",
+      "close_button": "クローズ",
+      "title": "セッションの有効期限が切れ",
+      "message": "セキュリティ上の理由から、あなたのセッションが不活動によるタイムアウトしました。",
+      "return_to_signin": "サインインに戻ります"
+    }
+  },
+  "bundle_signin": {
+    "agree": "同意する",
+    "agree_or_disagree": "あなたが同意するか反対するかどうかを選択します。",
+    "continue": "持続する",
+    "didnt_receive": "電子メールを受信しませんでしたか？",
+    "email": "電子メールアドレス",
+    "email_or_phone": "メールまたは携帯電話番号",
+    "forgot": "忘れていた？",
+    "forgot_password": "パスワードをお忘れですか？",
+    "forgot_title": "パスワードのリンクを忘れました",
+    "forgot_title_improved": "パスワードをお忘れですか？",
+    "login_heading": "サインイン",
+    "no_worries": "心配ない！私たちはあなたのビザCheckoutアカウントのパスワードをリセットする方法の手順をお送りします",
+    "not_agree": "私は同意しない",
+    "on_its_way": "あなたのメールは、その道を進んでいます。",
+    "password": "パスワード",
+    "policies_updated": "私たちのポリシーが更新されました。",
+    "remember_me": "このデバイス上で私を忘れないでください",
+    "remembered_login_heading": "お帰りなさい。",
+    "resend_instructions": "再送信の手順",
+    "send_instructions": "命令を送信します",
+    "sign_in": "サインイン",
+    "to_reset": "あなたのパスワードをリセットするには、単に電子メールの指示に従ってください。",
+    "user_name": "ユーザー名",
+    "forgotPassword": {
+      "emailsentAgain": "別の電子メールが送信されました"
+    },
+    "tac": {
+      "agree": "同意する",
+      "agree_extended": "__AGREE__ 更新すると。 __TERMS__ __PRIVACY__",
+      "continue": "持続する",
+      "disagree": "私は同意しない",
+      "disagree_extended": "__NOTAGREE__ __NOTAGREE__と私は自分のアカウントからログアウトされます。",
+      "header": "私たちは、用語とポリシーを更新しました。",
+      "privacy_link": "個人情報保護方針",
+      "terms_link": "サービスの利用規約",
+      "content": {
+        "p_1": "私たちは常にビザチェックアウト体験を改善しています。ビザチェックアウト、オンラインチェックアウトする、安全でシンプルかつ簡単な方法のメリットを享受し続けるためには、更新__TERMS__と__PRIVACY__を受け入れる必要があります。 __TERMS__ __PRIVACY__",
+        "p_2": "__HIGHLIGHTS__を確認する瞬間を取ってください。 __HIGHLIGHTS__",
+        "p_3": "私たちはあなたがアップデートについて質問がある場合に役立つかするために何かできることがあります場合は、お問い合わせください。あなたは__SUPPORTEMAIL__に電子メールを送信することによって、私たちと連絡をとることができます。私たちのビザCheckoutサポートセンターは24時間、365日オープンしています。 __SUPPORTEMAIL__",
+        "p_4": "あなたは__SUPPORT__ページの指示に従ってください、あなたのアカウントを閉鎖したい場合。 __SUPPORT__",
+        "p_5": "Visa Checkoutを使用して続行するには、以下の「私は同意する」チェックボックスをオンにします。当社のグローバルサービスの一部であることをありがとうございました。"
+      },
+      "form": {
+        "agree": "同意する",
+        "agree_extended": "__AGREE__ 更新すると。 __TERMS__ __PRIVACY__",
+        "continue": "持続する",
+        "disagree": "私は同意しない",
+        "disagree_extended": "__NOTAGREE__ __NOTAGREE__と私は自分のアカウントからログアウトされます。"
+      },
+      "links": {
+        "highlights": "アップデートのハイライト",
+        "privacy_link": "個人情報保護方針",
+        "support_page": "サポート",
+        "terms_link": "サービスの利用規約"
+      }
+    },
+    "forgot_password_title": "あなたのパスワードをリセット",
+    "no_worries_text": "Justアカウントに関連付けられているメールアドレスを入力して、私たちはあなたにパスワードをリセットするコードをお送りします。",
+    "forgot_send_code": "コー​​ドを送ります",
+    "forgot_cancel": "キャンセル",
+    "profile_not_found": "申し訳ありませんが、我々は我々のシステムでは、このメールアドレスを見つけることができませんでした。もう一度やり直してください。",
+    "reset_code_sent": "__name__に送信されたパスワードのリセットコード __name__",
+    "reset_code_sent_again": "__name__に、別の電子メールを送信しました __name__",
+    "reset_code_title": "パスワードのリセットコードを入力してください",
+    "reset_code_text": "あなたはすぐに電子メールを介してあなたのコードを受信する必要があります。私たちの電子メールを受信しませんでしたか？",
+    "reset_code_resend": "再送します",
+    "reset_code_label": "パスワードリセットコード",
+    "reset_code_submit": "提出します",
+    "reset_code_confirmed": "パスワードリセットコードが確認されています！",
+    "max_attempts_title": "到達した最大の試み",
+    "max_attempts_text": "あなたの現在のリセットコードで試行の最大数に達しました。続行するには、新しいコードを受信するメールアドレスを入力します。また、以下の別のオプションを選択することができます。",
+    "max_attempts_submit": "新しいコードを送ります",
+    "max_attempts_or": "または",
+    "max_attempts_signin": "別のユーザーとしてサインイン",
+    "max_attempts_continue": "新規顧客として継続",
+    "locked_title": "コー​​ドを確認できませんでした。",
+    "locked_text": "申し訳ありませんが、パスワードのリセットコードを確認することができませんでした。セキュリティ上の理由から、我々は一時的にデバイスをロックしました。後ほどおかけ直しください。",
+    "locked_submit": "クローズ",
+    "new_pass_title": "新しいパスワードを作成します。",
+    "new_pass_text": "あなたが正常にあなたのパスワードを作成したら、この購入を続行することができます。",
+    "new_pass_label": "パスワードを作成します。",
+    "new_pass_submit": "提出します",
+    "new_pass_same": "申し訳ありませんが、あなたの新しいパスワードが前のものと同じにすることはできません。",
+    "new_pass_success": "パスワードが正常に更新されました！",
+    "error": {
+      "otpTokenFailed": "申し訳ありませんが、あなたが入力したコードが正しくありません。"
+    }
+  },
+  "collection_carousel": {
+    "header": "マイカード",
+    "add_button": "ADD save search for saved",
+    "edit_button": "編集",
+    "addCard": {
+      "successMessage": "カードが正常に保存します。"
+    },
+    "no_cards": "ビザチェックアウトの完全な利点を得るためにカードを追加します。"
+  },
+  "footer": {
+    "Terms": "条項",
+    "Privacy": "プライバシー",
+    "Support": "サポート",
+    "legal": {
+      "native": {
+        "disclaimerFooter": "ビザチェックアウトは、あなたがビザCheckoutに関連した顧客サービス、利用状況の分析、不正防止、マーケティングのためのカードを発行した金融機関とビザチェックアウトでこのカードを使用する方法についての情報を共有することがあります。"
+      }
+    },
+    "adPreference": "広告設定を調整",
+    "toggleLanguage": "に言語選択のトグル",
+    "languageSelector": "国と言語選択"
+  },
+  "form_validate": {
+    "error": {
+      "emptyForm": "継続して必要な情報を入力してください。",
+      "unfilledForm": "続行するにはあなたの情報を入力してください。",
+      "unfilledForm_inorder": "継続するためにあなたの情報を入力してください。",
+      "filledForm": "あなたは、以下の1つ以上のエラーを持っています。継続するためにそれらを修正してください",
+      "errorForm": "1つ以上のエラーを持っています。継続するためにそれらを修正してください",
+      "errorForm_punctuation": "1つ以上のエラーを持っています。継続するためにそれらを修正してください",
+      "generic": "我々は、技術的な問題が発生しています。もう一度やり直してください。"
+    }
+  },
+  "header": {
+    "visaCheckoutLogoAltText": "ビザチェックアウトロゴ",
+    "visaCheckoutLogoAltTextDE": "VisaCheckout.comへのビザチェックアウトロゴリンク",
+    "rxoCloseButton": "閉じるビザチェックアウト",
+    "backButton": "バック"
+  },
+  "metro": {
+    "error": {
+      "emptyForm": "継続するためにあなたの情報を入力してください。",
+      "filledForm": "1つ以上のエラーを持っています。継続するためにそれらを修正してください",
+      "generic": "我々は、技術的な問題が発生しています。もう一度やり直してください。"
+    },
+    "signin": {
+      "emptyForm": "ログイン認証情報を入力してください。"
+    }
+  },
+  "rxo": {
+    "address": {
+      "account_already_exists_error": "アカウントは既にこのメールアドレスで存在します",
+      "account_already_exists_error_page": "アカウントはすでにあなたが提供するメールアドレスに存在します。継続するためには、あなたは、あなたのアカウントにログインパスワードをリセットするか、別のメールアドレスを使用することができます。",
+      "update_all": "すべてのカードのアドレスを更新？",
+      "update_all_info": "あなたが更新しているアドレスは、1つ以上のカードに請求先住所です。ご確認ください。",
+      "previous": "以前の住所",
+      "updated": "更新されたアドレス",
+      "card_will_be_updated": "更新されるカード",
+      "cards_will_be_updated": "カードが更新されます",
+      "update_all_card": "はい、すべてのカードを更新",
+      "update_only_address": "いいえ、更新のみこの住所",
+      "address_suggestions": "アドレス提案は、利用可能である上下の矢印ボタンを使用してナビゲートします"
+    },
+    "bundle_pi": {
+      "billing_address": "請求先住所",
+      "card_add_success": "あなたのカードが正常に追加されました",
+      "card_expired": "このカードは有効期限が切れています。継続して更新してください。",
+      "card_not_verified": "あなたはこのカードを使用する前に、追加情報が必要とされています。",
+      "card_save_success": "あなたのカードが正常に保存されました",
+      "card_update_success": "あなたのカードが正常に更新されました",
+      "change": "変化する",
+      "close_warning": "閉じるエラーメッセージパネル。",
+      "delete_last_content": "残念ながら、あなたはこの購入を続行するには、別のクレジットカードまたはデビットカードを追加する必要があります。",
+      "delete_last_header": "最後のカードが削除されました",
+      "delete_last_button": "カードを追加",
+      "delivery_address_not_acceptable": "許容されません",
+      "edit_card_title": "編集カード",
+      "exp": "有効期限",
+      "will_exp": "によって有効期限",
+      "has_exp": "期限切れの",
+      "invalid_billing_country": "この商人は、あなたの配信アドレスの国に位置している請求先住所を受け付けません。",
+      "make_preferred_card": "私の好適なカードを作ります",
+      "unaccepted": "受け入れられません。",
+      "not_available": "利用不可",
+      "open_warning": "カードは利用できません。オープンエラーメッセージパネル。",
+      "preferred_card_msg": "私の好適カード",
+      "change_button_desc": "あなたの$ 1カードは$ 2で終わる変更",
+      "card_img_alt_text": "カード画像",
+      "card_nickname": {
+        "my": "マイ",
+        "card": "カード..."
+      },
+      "a11y": {
+        "add_page_title": "ビザチェックアウト、クレジットカード情報を追加",
+        "edit_page_title": "ビザチェックアウト、あなたのカード情報を編集"
+      }
+    },
+    "address_add": {
+      "heading": "アドレスを追加",
+      "heading_guest": "配信アドレス",
+      "primary_button": "アドレスを追加",
+      "continue_button": "持続する",
+      "secondary_button": "キャンセル",
+      "primary_button_alt": "アドレスボタンを追加",
+      "secondary_button_alt": "編集アドレスボタンをキャンセル",
+      "preferred_address": "マイ好ましい送達アドレス",
+      "a11y": {
+        "page_title": "ビザチェックアウト、住所の詳細を追加"
+      }
+    },
+    "address_update_delete": {
+      "cancel_button_desc": "編集アドレスをキャンセル",
+      "update_button_desc": "アドレスを更新",
+      "address_add_success": "あなたのアドレスが正常に追加されました",
+      "address_update_success": "あなたのアドレスが正常に更新されました",
+      "address_save_success": "あなたのアドレスが正常に保存されました",
+      "address_delete_success": "あなたのアドレスが正常に削除されました",
+      "delete_last_header": "最後のアドレスは削除されました",
+      "delete_last_content": "残念ながら、あなたはこの購入を続行するには、別のアドレスを追加する必要があります。",
+      "delete_last_button": "アドレスを追加",
+      "delete_button_desc": "このアドレスを削除します。",
+      "a11y": {
+        "page_title": "ビザチェックアウト、住所の詳細を編集"
+      }
+    },
+    "contact_information": {
+      "heading": "連絡先",
+      "subheading": "マーチャントは、オーダー関連の質問のためにこれを使用することができます。"
+    },
+    "buttons": {
+      "continue_as_new": "新規顧客として継続",
+      "signin": "サインイン"
+    },
+    "inputs": {
+      "phone_input": {
+        "label": "電話番号",
+        "label_invalid": "無効な電話番号",
+        "clear": "別の電話番号を使用します",
+        "filter_placeholder": "選択または国を入力してください",
+        "filter_invalid_label": "無効な国",
+        "filter_invalid_description": "いいえ国はあなたが入力した内容に一致する見つかりませんでした。あなたのエントリを変更してください。",
+        "dropdown": "国コードセレクタ、__selectedCountryName__国コード+ _ selectedCountryDialCode__。崩壊したメニュー項目。 __selectedCountryName__ __selectedCountryDialCode__",
+        "country": "__selectedCountryName__ 、国コード+ __selectedCountryDialCode__"
+      }
+    },
+    "thank_you": {
+      "title": "おめでとう！",
+      "message": "あなたのビザCheckoutアカウントの作成に成功しました。",
+      "redirect_continue_message": "あなたは今まで続けます %s",
+      "redirect_count": "__count__ 二番。",
+      "redirect_count_plural": "__count__ 秒。",
+      "redirect_link": "ただ、商人に進みます",
+      "alt_confirmation": "確認アイコン画像",
+      "a11y": {
+        "page_title": "ビザチェックアウト、おめでとう、あなたのビザCheckoutアカウントが正常に作成されました"
+      }
+    },
+    "welcome_screen": {
+      "merchant_message_merchant": "__merchantName__ 今提供しています",
+      "merchant_message_visa": "ビザチェックアウト",
+      "welcome_text_expanded": "それはオンラインで支払うする簡単な方法ですなぜここです：あなたは一度だけアカウントを作成し、シングルサインオンでいつでもあなたはビザチェックアウトボタンを参照してくださいとチェックアウトを介して、高速化します。",
+      "welcome_text_left": "オンラインで支払うための簡単​​な方法へようこそ。",
+      "welcome_text_no_fees": "手数料なし。",
+      "welcome_text_right": "すべての主要なカードは受け入れました。",
+      "tell_me_more_text": "もっと教えて",
+      "signin_button_text": "サインイン",
+      "signin_button_text_2": "既存のお客様",
+      "continue_button_text": "新規顧客として続行",
+      "continue_button_text_2": "新規のお客様",
+      "logo_text": "ロゴ",
+      "a11y": {
+        "page_title": "オンライン支払いする簡単な方法へようこそビザチェックアウト、",
+        "tell_me_more": "ビザチェックアウトについて詳しく教えてください",
+        "signin_button": "ビザCheckoutにログイン",
+        "continue_button": "新規のお客様としてビザチェックアウトを使用し続けます"
+      }
+    },
+    "signin": {
+      "visa": "ビザチェックアウトボタンの例",
+      "new": "ビザチェックアウトは初めてですか？",
+      "continue": "新規顧客として続行",
+      "required": "ビザCheckoutアカウントを継続するために必要とされます",
+      "welcomeBack": "こんにちは。始めるためにあなたのビザCheckoutアカウントにログインします。",
+      "empty_form": "ログイン認証情報を入力してください。",
+      "incorrect_signin": "あなたは間違ったサインイン認証情報を入力しました。",
+      "did_you": "あなたがやりました",
+      "forget_password": "パスワードを忘れましたか？",
+      "for_security": "セキュリティ上の理由から、我々は一時的にこのアカウントをロックしました。後でもう一度試すか、してください",
+      "reset_password": "あなたのパスワードをリセット",
+      "to_continue": "続ける。",
+      "full_incorrect": "あなたは間違ったサインイン認証情報を入力しました。あなたのパスワードを忘れてしまいましたか？",
+      "full_locked": "セキュリティ上の理由から、我々は一時的にこのアカウントをロックしました。後でもう一度試すか、継続するにはパスワードをリセットしてください。",
+      "no_pi_header": "ファイルにはカードなし",
+      "no_pi_content": "あなたはファイルにカードが無いように見えます。この購入を続行するにはクレジットカードまたはデビットカードを追加してください。",
+      "no_address_header": "ファイルに関する情報なし",
+      "no_address_content": "継続するためには、この購入を完了するには、配信アドレス、次にクレジットカードまたはデビットカードを追加する必要があります。",
+      "reset_password_link_text": "あなたのパスワードをリセット",
+      "a11y": {
+        "page_title": "こんにちは。始めるためにあなたのビザCheckoutアカウントにログインします。"
+      },
+      "remember_me_learn_more": "私たちはあなたの電子メールや携帯電話の番号を保存することで、あなたを思い出すのに役立ちます。さて、あなたがチェックアウトするたびに、私たちは、このデバイス上であなたとあなたのお気に入りのカードを覚えているだろう。に署名するときに単にあなたのパスワードを入力します。",
+      "remember_me_learn_more_2": "ビザチェックアウトは、よりパーソナライズされたショッピング体験をご提供し、あなたのクレジットカードまたはデビットカードのデザインが表示されます。"
+    },
+    "three_ds": {
+      "authenticating": "あなたのカードは現在、あなたの銀行によって認証されています。",
+      "a11y": {
+        "page_title": "ビザチェックアウトは、あなたの保護のために金融機関は、あなたの消費者の認証パスワードを要求しています。"
+      }
+    },
+    "step_info": {
+      "delivery_address": {
+        "top_line": "次へ：あなたのカード情報を入力します。",
+        "bottom_line": "あなたはいつでも変更を加えることができ、心配しないでください。"
+      },
+      "add_card": {
+        "top_line": "次へ：レビューとあなたの情報を確認します。",
+        "bottom_line": "あなたはそこに必要な変更を加えることができるでしょう。"
+      },
+      "review": {
+        "left": "あなたはに戻ります",
+        "left_continue": "Return to",
+        "left_pay": "これは、へのご購入を完了します",
+        "merchant_name": "__merchantName__",
+        "merchant_name_replacement": "商人のサイト",
+        "right": "ご購入を完了します。",
+        "right_continue": "ご購入を完了します。",
+        "right_pay": "."
+      },
+      "review_create_account": {
+        "top_line": "まず、あなたはビザCheckoutアカウントを作成します。",
+        "bottom_line_left": "そして、あなたはでご購入を完了します",
+        "bottom_line_right": "."
+      },
+      "three_ds": {
+        "legal_visa": "このカードは、VISA認証サービスに登録されています。続行する前に、あなたの保護のために、金融機関は、あなたの消費者の認証パスワードを要求しています。",
+        "legal_mc": "このカードは、MasterCard®のSecureCode™に登録されています。続行する前に、あなたの保護のために、金融機関は、あなたの消費者の認証パスワードを要求しています。"
+      }
+    },
+    "session_about_to_expire": {
+      "header": "あなたのセッションの有効期限が近づいて",
+      "subtext": "あなたは以下続行したい方法を選択します。",
+      "continue_session_button": "セッションを継続",
+      "close_button": "クローズ"
+    },
+    "session_expired": {
+      "header": "あなたのセッションの有効期限が切れています",
+      "subtext": "あなたのセキュリティを強化するために、セッションが非アクティブのために有効期限が切れています。続行するには、新しいセッションを開始するために、再度ビザCheckoutアカウントにログインしてください。",
+      "sign_in_button": "サインインするために行きます",
+      "continue_button": "持続する",
+      "close_button": "クローズ"
+    },
+    "speed_bump": {
+      "header": "サービスを利用できません",
+      "subtext": "大変申し訳ございませんが、予期しない事態が発生し、セッションは終了しました。もう一度ログインしてください。",
+      "signin_button": "サインイン",
+      "close_button": "クローズ",
+      "account_locked": "アカウントがロックされました",
+      "locked_pfx": "セキュリティ上の理由から、我々はこのアカウントをロックしました。お問い合わせください",
+      "customer_support": "顧客サポート",
+      "locked_sfx": "この問題を解決します。",
+      "three_ds": {
+        "verify": "確認できませんでした",
+        "prefix": "申し訳ありませんが、あなたの金融機関があなたを認証することができませんでした",
+        "center": "カード...",
+        "post_add": "。あなたのセキュリティを強化するために、この購入を続行するには新しいカードを追加する必要があります。",
+        "post_change": "。あなたのセキュリティを確保するため、この購入を続行するには、ファイルにあなたが持っている他のカードをご使用ください。",
+        "button": {
+          "add_card": "新しいカードを追加します。",
+          "change_card": "他のカードをご使用ください"
+        }
+      }
+    },
+    "account_locked": {
+      "subtext": "セキュリティ上の理由から、我々は一時的にこのアカウントをロックしました。後ほどおかけ直しください。"
+    },
+    "review": {
+      "add": "ADD save search for saved",
+      "confirm_acct": "アカウントの詳細を確認し、パスワードを作成します。",
+      "contact_details": "注文の連絡先の詳細",
+      "continue": "持続する",
+      "create_and_continue": "アカウントを作成して続行",
+      "create_password": "パスワードを作成します。",
+      "delivery_address": "配信アドレス",
+      "edit": "編集",
+      "hide_password": "隠す",
+      "password_minimum": "最低6文字",
+      "pay_with": "有給",
+      "card_details": "カードの詳細",
+      "sign_up": "ビザCheckoutでサインアップ",
+      "warning": "（あなたが公共のコンピュータを使っているのであればオフにします）",
+      "save_info": "ビザCheckoutで私の情報を保存",
+      "sign_up_and_continue": "サインアップ＆続行",
+      "show_password": "ショー",
+      "total": "合計",
+      "usd_symbol": "$",
+      "place_order": "ここで注文",
+      "email": "アカウントでサインイン",
+      "email_field": "メール",
+      "country": "カントリー",
+      "sign_up_learn_more": "アカウントを作成するときに最速のチェックアウトの経験のために、我々は、このデバイス上でメールアドレスを保存します。あなたがチェックアウト次回は、単にあなたのパスワードを入力します。それでおしまい！",
+      "a11y": {
+        "page_title": "ビザチェックアウト、レビューとお支払いと配送先住所の詳細を確認",
+        "add_card": "新しいカードを追加します。",
+        "edit_card": "このカードを編集します",
+        "add_address": "新しいアドレスを追加します。",
+        "edit_address": "このアドレスを編集します。",
+        "edit_account_details": "編集アカウントの詳細",
+        "card_voice_over": "__nickName__ 。最後の4桁：。有効期限： 。請求先住所： 。 __lastFourDigits__ __expiry__ __ba__"
+      },
+      "errors": {
+        "invalid_shipping_country": "この商人は__country__する配信しません。 __country__",
+        "invalid_password0": "パスワードは、同じ文字を3回繰り返す必要があります。",
+        "invalid_password1": "パスワードは、アカウント名の5連続した文字と同じであってはなりません。"
+      },
+      "cpf": {
+        "input_placeholder": "CPF",
+        "learnMoreCPF": "このトランザクションを処理するために商人によって必要とされます。"
+      }
+    },
+    "address_crud": {
+      "not_found": {
+        "add_address": "アドレスを追加",
+        "edit_address": "編集住所",
+        "description": "私たちは、あなたが郵便で入力したアドレスを確認できませんでしたように見えます。あなたはとにかくそれを追加しますか？"
+      }
+    },
+    "intercept": {
+      "non_roman_keyboard_header": "確認してください",
+      "non_roman_keyboard_content": "あなたは__ACTION__を使用する必要があります。ビザチェックアウトは、現在、他の文字を使用することはできません。 __ACTION__",
+      "non_roman_keyboard_content_bold": "ローマ字のみ",
+      "non_roman_keyboard_button": "確認して続行"
+    },
+    "otp": {
+      "invalid_password_reset_code": "無効なパスワードのリセットコード",
+      "valid_password_reset_code": "パスワードのリセットコードが確認されました！",
+      "password_reset_success": "パスワードが正常に更新されました。"
+    }
+  },
+  "spinner": {
+    "loading": "処理要求"
+  },
+  "view_input_field": {
+    "characters_left": "左の文字",
+    "clear": {
+      "name": "明確な",
+      "generic_field_label": "フィールド"
+    },
+    "autocomplete_options_available": "一つ以上の提案が選択したり、矢印を上下に使用し、ご利用いただけます"
+  },
+  "view_input": {
+    "expiry_placeholder": "MM / YY"
+  },
+  "learn-more": {
+    "close": "クローズ",
+    "collapsed_panel": "もっと詳しく知る",
+    "close_panel": "閉じるもっとパネルを学びます",
+    "more_info": "詳細",
+    "learn_more": "もっと詳しく知る"
+  },
+  "locale": {
+    "country": {
+      "Argentina": "アルゼンチン",
+      "China": "中国",
+      "Peru": "ペルー",
+      "Australia": "オーストラリア",
+      "Colombia": "コロンビア",
+      "SouthAfrica": "南アフリカ",
+      "Brazil": "ブラジル",
+      "HongKong": "香港",
+      "UAE": "アラブ首長国連邦",
+      "Canada": "カナダ",
+      "Mexico": "メキシコ",
+      "USA": "アメリカ合衆国",
+      "Chile": "チリ",
+      "NewZealand": "ニュージーランド",
+      "Singapore": "シンガポール",
+      "Malaysia": "マレーシア",
+      "UnitedKingdom": "イギリス",
+      "Ireland": "アイルランド",
+      "Gibraltar": "ジブラルタル",
+      "France": "フランス",
+      "India": "インド",
+      "Poland": "ポーランド",
+      "Spain": "スペイン",
+      "SaudiArabia": "サウジアラビア",
+      "Ukraine": "ウクライナ",
+      "DominicanRepublic": "ドミニカ共和国",
+      "Taiwan": "台湾",
+      "Kuwait": "クウェート",
+      "Thailand": "タイ",
+      "Guatemala": "グアテマラ",
+      "SouthKorea": "韓国",
+      "Japan": "日本"
+    }
+  },
+  "view-page": {
+    "lower_environment_warning": "NOT民生用！ -  __env__テスト環境 __env__"
+  },
+  "createAccount": {
+    "password": {
+      "show": "ショー",
+      "hide": "隠す",
+      "aria_show": "パスワードの文字を表示します",
+      "aria_hide": "パスワードの文字を隠します",
+      "helperText": "最低6文字"
+    },
+    "legal": {
+      "native": {
+        "tos_link": "サービスの利用規約",
+        "privacy_link": "個人情報保護方針",
+        "communication_policy_link": "電子通信政策",
+        "disclaimer": "アカウントを作成することにより、あなたはビザCheckoutの__TosLink__と__PrivacyLink__に同意するものとします。また、ビザCheckoutの__CommunicationPolicyLink__を受け入れ、電子メールや電子の代わりにメールでアカウントの通知を受信することに同意します。 __TosLink__ __PrivacyLink__ __CommunicationPolicyLink__"
+      }
+    }
+  }
+}
+  "Japan": "日本"
+    }
+  },
+  "view-page": {
+    "lower_environment_warning": "NOT民生用！ -  __env__テスト環境 __env__"
+  },
+  "createAccount": {
+    "password": {
+      "show": "ショー",
+      "hide": "隠す",
+      "aria_show": "パスワードの文字を表示します",
+      "aria_hide": "パスワードの文字を隠します",
+      "helperText": "最低6文字"
+    },
+    "legal": {
+      "native": {
+        "tos_link": "サービスの利用規約",
+        "privacy_link": "個人情報保護方針",
+        "communication_policy_link": "電子通信政策",
+        "disclaimer": "アカウン�
